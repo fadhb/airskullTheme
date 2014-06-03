@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.85
+Version: 3.8.86
 Template: parallax
 */
 
@@ -317,26 +317,26 @@ display: none;
 
 /* home page settings */
 /* first set the fixed nav size for all pages */
-.page-id-7228 #nav-bar.clearfix.fixed-nav-bar {
+.page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
         height: 59px;
 	bottom:auto;
 }
 
-.page-id-7228 a.carousel-prev !important {
+.page-id-6467 a.carousel-prev !important {
 	display: none;
 }
 
-.page-id-7228 a.carousel-next !important {
+.page-id-6467 a.carousel-next !important {
         display: none;
 }
 
-.page-id-7228 #header hgroup {
+.page-id-6467 #header hgroup {
     display: table-cell;
 }
-.page-id-7228 #headerwrap {
+.page-id-6467 #headerwrap {
     height: 100%;
 }
-.page-id-7228 #nav-bar {
+.page-id-6467 #nav-bar {
     top: auto; 
     bottom: 0;
 }
@@ -345,20 +345,20 @@ display: none;
 	height: 59px;
 } */
 
-.page-id-7228 .loops-wrapper.list-post .post {
+.page-id-6467 .loops-wrapper.list-post .post {
 	margin-bottom:45px;
 }
 
-.page-id-7228 .aspostdivider { 
+.page-id-6467 .aspostdivider { 
  border-bottom: 1px solid gray !important;
 }
 
-.page-id-7228 .aspostdivider {
+.page-id-6467 .aspostdivider {
         height:10px;
         
 }
 
-.page-id-7228 #content {
+.page-id-6467 #content {
         padding: 75px 0 60px;
 }
 
