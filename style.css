@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.75
+Version: 3.8.79
 Template: parallax
 */
 
@@ -180,7 +180,18 @@ div.widget.jetpack_subscription_widget {
 .post-image img {
     border-radius: 0px !important;
 }
+img.post-img {
+    border-radius: 0px !important;
+}
 
+/* center the book images */
+div.image-wrap {
+    display: block !important;
+}
+div.image-wrap img {
+    display: block;
+    margin:0 auto;
+}
 /* remove sharing for team pages */
 div.post-nav.team-nav.clearfix .next a {
     background: #fff;
