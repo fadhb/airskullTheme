@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.79
+Version: 3.8.84
 Template: parallax
 */
 
@@ -151,10 +151,15 @@ div.nr_related_placeholder {
 
 /* jetpack subcribtion email form */
 p#subscribe-email {
-    width:30%;
-    padding-left: 35%;
+    width:35%;
+    padding-left: 20%;
+    padding-top: 1px;
+    float:left;
 }
 
+input#subscribe-field {
+    height: 34px;
+}
 #subscribe-field {
     text-align: center;
 }
@@ -184,7 +189,7 @@ img.post-img {
     border-radius: 0px !important;
 }
 
-/* center the book images */
+/* front page book images section*/
 div.image-wrap {
     display: block !important;
 }
@@ -192,6 +197,17 @@ div.image-wrap img {
     display: block;
     margin:0 auto;
 }
+
+#text-7228-1-1-4 p {
+    margin-bottom: 25px;
+    margin-top: 75px;
+}
+
+/* set the team images as circles */
+.team-post .post-image img {
+border-radius: 20em !important;
+}
+
 /* remove sharing for team pages */
 div.post-nav.team-nav.clearfix .next a {
     background: #fff;
@@ -258,8 +274,12 @@ display: none;
 
 
 /* comments */
-.page-id-6953 div#comments, .page-id-6963 div#comments, .page-id-6953 p#subscribe-text {
+.page-id-6953 div#comments, .page-id-6963 div#comments, .page-id-7228 div#comments, .page-id-6953 p#subscribe-text {
     display: none;
+}
+
+.page-id-7228 div.pagenav.clearfix {
+    display: inline;
 }
 
 .page-id-6953  .page-content {
@@ -342,6 +362,10 @@ display: none;
         padding: 75px 0 60px;
 }
 
+.pagenav a, .pagenav span {
+    	border-radius:0px;
+	background-color: #333;
+}
 
 /* Australia Page */
 .page-id-6518 i.fa.fa-arrow-circle-down {
