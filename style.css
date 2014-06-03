@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.74
+Version: 3.8.75
 Template: parallax
 */
 
@@ -175,6 +175,10 @@ div.widget.jetpack_subscription_widget {
     margin-left: 0px;    
     width:100%;
     background: #efefef;
+}
+/* remove image bevelled edges */
+.post-image img {
+    border-radius: 0px !important;
 }
 
 /* remove sharing for team pages */
