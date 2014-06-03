@@ -1,0 +1,460 @@
+/*
+Theme Name: Parallax Child
+Description: Child theme for Parallax theme
+Author: AirSkull updated 2nd June 2014
+Version: 3.8.74
+Template: parallax
+*/
+
+@import url("../parallax/style.css");
+@import url("./genericons.css");
+@import url("./custom-sharing-jp.css");
+
+/* write custom css below */
+
+/* stop the header wrap from pages */
+
+#header hgroup {
+    display: none;
+}
+#headerwrap {
+    height: 0;
+}
+#nav-bar {
+    top: 0;
+    bottom: auto;
+}
+
+.single .sidebar-none #layout {
+	max-width:850px;
+}
+
+p {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+
+#content .img {
+margin-left 0px;
+}
+
+.post-content{
+min-width: 120px;
+max-width: 850px;
+margin-left: 9%;
+margin-right: 9%;
+}
+
+
+/* Set the max height for homeschool curriculum section */
+.section-post.post-6513 {
+  min-height:475px;
+  max-height:475px;
+}
+/* homepage centre the meta */
+
+.post-title {text-align: center;}
+.post-date  {text-align: center;} 
+.asmeta  {text-align: center;}
+
+.post-meta {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* style the sharing icons */
+
+div.asmeta-sharing-title {
+    text-align: center;
+    font-size: larger;   
+    color: #555;
+    border-bottom: 1px solid #555;
+}
+
+div.sharedaddy .sd-content {
+    width:  100% !important;
+}
+
+h3.sd-title {
+    width: 0% !important;
+}
+
+.sd-content {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+div.sharedaddy a.sd-button {
+    background: #fff !important;
+}
+
+div.sharedaddy a.share-twitter {
+    border:none !important;
+}
+
+div.sharedaddy .sd-content ul {
+	display:inline-block;
+}
+
+div.sharedaddy a.sd-button {
+    padding: 2px!important;
+}
+ 
+div.sharedaddy .sd-content li a::before {
+    font-family: 'Genericons';
+    font-size: 40px;
+    color: #fff;
+}
+ 
+div.sharedaddy a.sd-button>span {
+    display: none;
+}
+
+div.sharedaddy .sd-content li.share-pinterest a::before {
+    content: '\f210';
+    color: #FF0000;
+}
+ 
+div.sharedaddy .sd-content li.share-twitter a::before {
+    content: '\f202';
+    color: #4099FF;
+}
+div.sharedaddy .sd-content li.share-facebook a::before {
+    content: '\f203';
+    color: #3B5998;
+}
+div.sharedaddy .sd-content li.share-google-plus-1 a::before {
+    content: '\f206';
+    color: #DD4B39;
+}
+div.sharedaddy .sd-content li.share-email a::before {
+    content: '\f410';
+    color: #666666;
+
+}
+
+/* nrelate box border & add 25px to left margin */
+.nrelate .nr_inner {
+    margin-left: 25px !important;
+}
+.nrelate .nr_title {
+    margin-left: 25px !important;
+}
+
+div.nr_related_placeholder {
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* jetpack subcribtion email form */
+p#subscribe-email {
+    width:30%;
+    padding-left: 35%;
+}
+
+#subscribe-field {
+    text-align: center;
+}
+.widget.jetpack_subscription_widget {
+    margin-left: 25px ;
+}
+
+h2.widgettitle {
+    display:none;
+}
+
+div.widget.jetpack_subscription_widget {
+    border: 1px solid #555;
+    padding: 15px 0px;
+    margin-top: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 0px;    
+    width:100%;
+    background: #efefef;
+}
+
+/* remove sharing for team pages */
+div.post-nav.team-nav.clearfix .next a {
+    background: #fff;
+}
+
+div.post-nav.team-nav.clearfix .prev a {
+    background: #fff;
+}
+    /* team id 6510 */
+.post-6510 div.asmeta-sharing-title {
+display: none;
+}
+
+.post-6510 div.nr_related_placeholder {
+display: none;
+}
+
+.post-6510 div.widget.jetpack_subscription_widget {
+display: none;
+}
+
+
+    /* team id 6507 */
+.post-6507 div.asmeta-sharing-title {
+display: none;
+}
+
+.post-6507 div.nr_related_placeholder {
+display: none;
+}
+
+.post-6507 div.widget.jetpack_subscription_widget {
+display: none;
+}
+
+
+    /* team id 6506 */
+.post-6506 div.asmeta-sharing-title {
+display: none;
+}
+
+.post-6506 div.nr_related_placeholder {
+display: none;
+}
+
+.post-6506 div.widget.jetpack_subscription_widget {
+display: none;
+}
+
+    
+    /* team id 6505 */
+.post-6505 div.asmeta-sharing-title {
+display: none;
+}
+
+.post-6505 div.nr_related_placeholder {
+display: none;
+}
+
+.post-6505 div.widget.jetpack_subscription_widget {
+display: none;
+}
+
+
+
+/* comments */
+.page-id-6953 div#comments, .page-id-6963 div#comments, .page-id-6953 p#subscribe-text {
+    display: none;
+}
+
+.page-id-6953  .page-content {
+    border: 1px solid #555;
+    border-radius: 10px;
+    background: #efefef;
+    text-align: center;
+    padding: 50px;
+}
+
+.page-id-6953 div.widget.jetpack_subscription_widget {
+    border: none;
+    padding: 0px;
+}
+
+/* align the image titles centered */
+.image-title {text-align: center;} 
+#searchform {text-align: center;}
+
+/* SOTW Page settings */
+.page-id-3145 #header hgroup {
+    display: table-cell;
+}
+.page-id-3145 #headerwrap {
+    height: 70%;
+}
+.page-id-3145 #nav-bar {
+    top: auto; 
+    bottom: 0;
+}
+
+.page-id-3145 #nav-bar.clearfix.fixed-nav-bar {
+        height: 59px;
+}
+
+/* home page settings */
+/* first set the fixed nav size for all pages */
+.page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
+        height: 59px;
+	bottom:auto;
+}
+
+.page-id-6467 a.carousel-prev !important {
+	display: none;
+}
+
+.page-id-6467 a.carousel-next !important {
+        display: none;
+}
+
+.page-id-6467 #header hgroup {
+    display: table-cell;
+}
+.page-id-6467 #headerwrap {
+    height: 100%;
+}
+.page-id-6467 #nav-bar {
+    top: auto; 
+    bottom: 0;
+}
+
+/* .page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
+	height: 59px;
+} */
+
+.page-id-6467 .loops-wrapper.list-post .post {
+	margin-bottom:45px;
+}
+
+.page-id-6467 .aspostdivider { 
+ border-bottom: 1px solid gray !important;
+}
+
+.page-id-6467 .aspostdivider {
+        height:10px;
+        
+}
+
+.page-id-6467 #content {
+        padding: 75px 0 60px;
+}
+
+
+/* Australia Page */
+.page-id-6518 i.fa.fa-arrow-circle-down {
+	display: none;
+}
+
+/* Crafts Page */
+.page-id-6679 i.fa.fa-arrow-circle-down {
+        display: none;
+}
+
+/* menu spacing */
+#main-nav li:last { border-left: 65px }
+
+/* post navigation images */
+span.arrow {
+    display: none !important;
+}
+
+.next a {
+    color: rgba(255,255,255,0);
+    height: 35px;
+    background: url(images/nxt.png) right no-repeat;
+}
+
+.prev a {
+    color: rgba(255,255,255,0);
+    height: 35px;
+    background: url(images/last.png) left no-repeat;
+}
+
+
+/* comments and stuff*/
+#comments {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+.post-nav.clearfix {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+.post-image img {
+	height: 400 px;
+}
+
+	
+.back-top a {
+    background: url(images/arrow-up.png) no-repeat center center;
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 81px;
+}
+
+ table.center {margin:auto;}
+
+
+/* 
+SEARCH FORM
+================================================ */
+#footer #searchform {
+    width: 170px;
+    margin: 10px auto;
+}
+
+#footer #searchform #s {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1em;
+    width: 67px;
+    color: #a9a9a9;
+    background: #f2f2f2 url(images/search.png) no-repeat 8px center;
+    padding: 3px 3px 3px 28px;
+    border: none;
+
+    border-radius: 5em;
+
+    -webkit-transition: width .7s;
+    -moz-transition: width .7s;
+    transition: width .7s;
+}
+
+#footer #searchform #s:focus {
+    width: 140px;
+    color: #333;
+}
+
+/* Footer column styling */
+ul.feature-posts-list {
+	width: 180px;
+}
+
+h4.widgettitle {
+	margin-left: 1em;
+}
+
+div.footer-text.clearfix {
+	display: none;
+}
+
+#linkcat-0 h4.widgettitle {
+	display: none;
+}
+
+#themify-feature-posts-4 h4.widgettitle {
+        display: none;
+}
+
+p.back-top {
+	display: none;
+}
+
+#footer .widget li {
+border: none;
+}
+
+/* individul pages styling */
+.themify_builder_content-6580 .module_row_0.module_row {
+	background-color: rgba(255,255,255,0.9) !important;
+}
+.themify_builder .text-6687-0-1-0.module-text {
+	background-color: rgba(255,255,255,0.45) !important;
+}
+.themify_builder .text-6749-0-1-0.module-text {
+        background-color: rgba(255,255,255,0.7) !important;
+}
+div#image-6693-0-0-0 {
+text-align: center;
+}

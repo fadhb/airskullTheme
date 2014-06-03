@@ -1,0 +1,272 @@
+/*
+Theme Name: Parallax Child
+Description: Child theme for Parallax theme
+Author: AirSkull updated 25th March
+Version: 3.8.9
+Template: parallax
+*/
+
+@import url("../parallax/style.css");
+@import url("./genericons.css");
+
+/* write custom css below */
+
+/* stop the header wrap from pages */
+
+#header hgroup {
+    display: none;
+}
+#headerwrap {
+    height: 0;
+}
+#nav-bar {
+    top: 0;
+    bottom: auto;
+}
+
+.single .sidebar-none #layout {
+	max-width:850px;
+}
+
+p {
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+
+#content .img {
+margin-left 0px;
+}
+
+.post-content{
+min-width: 120px;
+max-width: 850px;
+margin-left: 9%;
+margin-right: 9%;
+}
+
+/* homepage centre the meta */
+
+.post-title {text-align: center;}
+.post-date  {text-align: center;} 
+.asmeta  {text-align: center;}
+
+.post-meta {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* style the share this icons to the right */
+.sd-content  {
+	text-align: right;
+}
+div.sharedaddy .sd-content ul {
+	display:inline-block;
+}
+
+div.sharedaddy a.sd-button {
+    padding: 2px!important;
+}
+ 
+div.sharedaddy .sd-content li a::before {
+    font-family: 'Genericons';
+    font-size: 16px;
+    color: #fff;
+}
+ 
+div.sharedaddy a.sd-button>span {
+    display: none;
+}
+div.sharedaddy .sd-content li.share-pinterest a::before {
+    content: '\f210';
+    color: #FF0000;
+}
+ 
+div.sharedaddy .sd-content li.share-twitter a::before {
+    content: '\f202';
+    color: #4099FF;
+}
+div.sharedaddy .sd-content li.share-facebook a::before {
+    content: '\f203';
+    color: #3B5998;
+}
+div.sharedaddy .sd-content li.share-google-plus-1 a::before {
+    content: '\f206';
+    color: #DD4B39;
+}
+div.sharedaddy .sd-content li.share-email a::before {
+    content: '\f410';
+    color: #666666;
+
+}
+
+/* align the image titles centered */
+.image-title {text-align: center;} 
+#searchform {text-align: center;}
+
+/* SOTW Page settings */
+.page-id-3145 #header hgroup {
+    display: table-cell;
+}
+.page-id-3145 #headerwrap {
+    height: 70%;
+}
+.page-id-3145 #nav-bar {
+    top: auto; 
+    bottom: 0;
+}
+
+.page-id-3145 #nav-bar.clearfix.fixed-nav-bar {
+        height: 59px;
+}
+
+/* home page settings */
+/* first set the fixed nav size for all pages */
+.page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
+        height: 59px;
+	bottom:auto;
+}
+
+.page-id-6467 a.carousel-prev !important {
+	display: none;
+}
+
+.page-id-6467 a.carousel-next !important {
+        display: none;
+}
+
+.page-id-6467 #header hgroup {
+    display: table-cell;
+}
+.page-id-6467 #headerwrap {
+    height: 100%;
+}
+.page-id-6467 #nav-bar {
+    top: auto; 
+    bottom: 0;
+}
+
+/* .page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
+	height: 59px;
+} */
+
+.page-id-6467 .loops-wrapper.list-post .post {
+	margin-bottom:45px;
+}
+
+.page-id-6467 .aspostdivider { 
+ border-bottom: 1px solid gray !important;
+}
+
+.page-id-6467 .aspostdivider {
+        height:10px;
+        
+}
+
+.page-id-6467 #content {
+        padding: 75px 0 60px;
+}
+
+/* comments and stuff*/
+#comments {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+.post-nav.clearfix {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+
+.post-image img {
+	height: 400 px;
+}
+
+	
+/*	background-image: url(http://localhost:8888/arscoil/wp-content/uploads/2014/03/divider2.png);
+	/*background-color: #abc;*/
+	height: 100px;
+	/*max-width: 800px;*/
+	margin-left 9%;
+	background-repeat:no-repeat;
+	background-position:center;
+} 
+*/
+
+.back-top a {
+    background: url(images/arrow-up.png) no-repeat center center;
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 81px;
+}
+
+ table.center {margin:auto;}
+
+
+/* post nav arrow */
+/*
+.post-nav span span {
+	background: url(images/arrow-left-blue.png) center no-repeat;
+	color: #fff;
+	font: normal 20px/100% "Times New Roman", Times, serif;
+	display: block;
+	float: left;
+	width: 32px;
+	height: 28px;
+	padding: 4px 0 0;
+	text-align: center;
+	margin: -3px 10px 17px 0;
+	text-indent: -999em;
+	border-radius: 10em;
+}
+.post-nav .next span {
+	background-image: url(images/arrow-right-blue.png);
+	float: right;
+	margin-left: 10px;
+	margin-right: 0;
+}
+*/
+
+/* 
+SEARCH FORM
+================================================ */
+#footer #searchform {
+    width: 170px;
+    margin: 10px auto;
+}
+
+#footer #searchform #s {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 1em;
+    width: 67px;
+    color: #a9a9a9;
+    background: #f2f2f2 url(images/search.png) no-repeat 8px center;
+    padding: 3px 3px 3px 28px;
+    border: none;
+
+    border-radius: 5em;
+
+    -webkit-transition: width .7s;
+    -moz-transition: width .7s;
+    transition: width .7s;
+}
+
+#footer #searchform #s:focus {
+    width: 140px;
+    color: #333;
+}
+
+/* individul pages styling */
+.themify_builder_content-6580 .module_row_0.module_row {
+	background-color: rgba(255,255,255,0.9) !important;
+}
+.themify_builder .text-6687-0-1-0.module-text {
+	background-color: rgba(255,255,255,0.45) !important;
+}
+.themify_builder .text-6749-0-1-0.module-text {
+        background-color: rgba(255,255,255,0.7) !important;
+}
+
+
