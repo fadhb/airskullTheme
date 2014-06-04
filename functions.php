@@ -2,7 +2,7 @@
 
 // custom excerpt length
 function themify_custom_excerpt_length( $length ) {
-return 75;
+return 18;
 }
 add_filter( 'excerpt_length', 'themify_custom_excerpt_length', 999 );
 
