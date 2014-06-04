@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.90
+Version: 3.8.99
 Template: parallax
 */
 
@@ -471,6 +471,14 @@ SEARCH FORM
 }
 
 /* Footer column styling */
+footer#footer {
+	width: 85%;
+}
+
+div#nav_menu-2 {
+	margin-left: 57px;
+}
+
 ul.feature-posts-list {
 	width: 180px;
 }
