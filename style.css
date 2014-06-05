@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.106
+Version: 3.8.109
 Template: parallax
 */
 
@@ -25,11 +25,34 @@ Template: parallax
     bottom: auto;
 }
 
-/* post styling */
-.single .sidebar-none #layout {
-    max-width:850px;
+/*media queries reset */
+@media screen and (max-width: 1280px) {
+
+	.pagewidth,
+	.sidebar-none.list-post .section-inner,
+	.single .section-inner {
+		max-width: 94%;
+	}
+	#header.pagewidth {
+		max-width: 100%;
+		width: 100%;
+	}
+		
+	/* content */
+	#content {
+		padding: 7% 0 5%;
+		width: 76.5%;
+	}
+	
+	/* sidebar */
+	#sidebar {
+		padding: 7% 0 5%;
+		width: 19.7%;
+	}	
 }
 
+/* post styling */
+ 
 p {
     margin: 0 0 1.5em;
     padding: 0;
@@ -41,13 +64,16 @@ p {
 
 .post-content{
     min-width: 120px;
-    max-width: 850px;
+/*    max-width: 850px;*/
     margin-left: 9%;
     margin-right: 9%;
 }
-
+.sidebar-none.query-section .page-title,
+.sidebar-none.query-section .page-content {
+    width: 1278px;
+}
 .pagewidth {
-    width: 1378px;
+    width: 1278px;
 }
 
 #content {
@@ -55,7 +81,7 @@ p {
 }
 
 #sidebar {
-    width: 352px;
+    width: 252px;
 }
 
 .page-id-7276 .pagewidth {
@@ -71,7 +97,6 @@ p.wp-caption-text {
     background: #555;
     padding: 6px;
     font-style: normal;
-    margin: 0 4px;
     color: white;
 }
 
