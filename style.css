@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.113
+Version: 3.8.114
 Template: parallax
 */
 
@@ -86,10 +86,15 @@ img.sidebar-feature-img {
 .td-side {
     padding-bottom: 15px;
 }
+
+td.image-wrap {
+    padding: 0 4px;
+}
+
 /* Set the max height for homeschool curriculum section */
 .section-post.post-6513 {
-  min-height:475px;
-  max-height:475px;
+    min-height:475px;
+    max-height:475px;
 }
 /* homepage centre the meta */
 
