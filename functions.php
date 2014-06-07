@@ -49,18 +49,16 @@ add_filter( 'the_content', 'sharing_display', 9 );
 
 // add the scroll down  arrow
 
-function custom_down_arrow() {
+function custom_homepage_slider_banner() {
 	global $themify;
 
-	if( '' != $themify->query_category && 'section' == $themify->query_post_type ) {
-		echo '<a href="#body" id="arrow-down" style="position: absolute; left: 50%; bottom: -180px; color: #5282fa; font-size: 50px; z-index: 9;"><i class="fa fa-arrow-circle-down"></i></a>';
-	} elseif ( '' != $themify->query_category ) {
-                echo '<a href="#body" id="arrow-down" style="position: absolute; left: 48%; bottom: 60px; color: #fff; font-size: 74px; z-index: 9;"><i class="fa fa-arrow-circle-down"></i></a>';
-        }
+	if ( '' != $themify->query_post_type ) {
+		echo '<a href="#body" id="hm_slider_banner"><i class="motd motd-a"></i><i class="motd motd-b"></i></a>';
+	}
 }
-add_action( 'themify_header_end', 'custom_down_arrow' );
 
-// handle custome subscription form
+add_action( 'themify_header_end', 'custom_homepage_slider_banner' );
+// handle custom subscription form
 
 add_action( 'init', 'process_air_subscription_form' );
 function process_air_subscription_form() {

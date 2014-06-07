@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.114
+Version: 3.8.120
 Template: parallax
 */
 
@@ -384,6 +384,36 @@ display: none;
     padding: 27px 0 60px;
 }
 
+/* style for the banner over the homepage slider */
+.page-id-7276 i.motd {
+    position: absolute;
+    left: 52%;
+    bottom: -440px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 40px;
+    z-index: 9;
+    padding: 20px 13px;
+}
+
+.page-id-7276 i.motd-a:before {
+    content: "AirSkull";
+    font-family: cursive;
+    font-size: 55px;
+    padding-left: 205px;
+    vertical-align: sub;
+}
+
+i.motd.motd-b {
+    background: rgba(0,0,0,0);
+}
+
+.page-id-7276 i.motd-b:before {
+    content: "Latest posts on";
+    font-style: normal;
+    font-size: 28px;
+}
+
 /* page 6467 was the old home page */
 /* first set the fixed nav size for all pages */
 .page-id-6467 #nav-bar.clearfix.fixed-nav-bar {
@@ -493,6 +523,25 @@ span.arrow {
 
  table.center {margin:auto;}
 
+
+/* popup style */
+
+#message div.widget.jetpack_subscription_widget {
+    border: none;
+    background: #fff;
+}
+
+#message p#subscribe-text {
+    display: none;
+}
+
+#message input[type="submit"] {
+    background: #ff0000;
+}
+
+#message p#subscribe-email {
+    padding-left: 32%;
+}
 
 /* 
 SEARCH FORM
