@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.120
+Version: 3.8.125
 Template: parallax
 */
 
@@ -362,7 +362,15 @@ display: none;
 }
 
 .page-id-3145 #nav-bar.clearfix.fixed-nav-bar {
-        height: 59px;
+    height: 59px;
+}
+
+.post-4963 div.widget.jetpack_subscription_widget {
+    display: none;
+}
+
+.post-4963 div.nr_related_placeholder {
+    display: none;
 }
 
 /* home page settings */
@@ -575,64 +583,73 @@ SEARCH FORM
 
 /* Footer column styling */
 footer#footer {
-	width: 85%;
+    width: 85%;
 }
 
 div#nav_menu-2 {
-	margin-left: 57px;
+    margin-left: 57px;
 }
 
 ul.feature-posts-list {
-	width: 180px;
+    width: 300px;
 }
 
 h4.widgettitle {
-	margin-left: 1em;
-	text-align: center;
-	font-family: alice;
-	color: rgb(85, 85, 85);
+    margin-left: 1em;
+    text-align: center;
+    font-family: alice;
+    color: rgb(85, 85, 85);
 }
 
 div.footer-text.clearfix {
-	display: none;
+    padding-top: 0px;;
 }
 
 #linkcat-0 h4.widgettitle {
-	display: none;
+    display: none;
 }
 
 h4.widgettitle {
-	margin-left: 0px;
+    margin-left: 0px;
 }
 
 div#text-3 {
-	text-align: center;
+    text-align: center;
 }
 
 #linkcat-0 li {
-	text-align: center;
+    text-align: center;
 }
 
 div#nav_menu-2 {
-	padding-left: 105px;
+    padding-left: 105px;
 }
 
 #themify-feature-posts-4 h4.widgettitle {
-        display: none;
+    display: none;
 }
 ul.feature-posts-list {
-    	margin: auto;
+    margin: auto;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
 }
+
+ul.xoxo.blogroll {
+    margin-top: 50px;
+}
+
 p.back-top {
-	display: none;
+    margin-top: 0px;
+    padding-bottom: 7px;
+    border: none;
 }
 
 #footer .widget li {
-border: none;
-}
-
-#footerwrap div#themify-feature-posts-5 {
-margin-left: 150px;
+    border: none;
 }
 
 /* individul pages styling */
