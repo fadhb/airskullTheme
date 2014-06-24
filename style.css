@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.126
+Version: 3.8.129
 Template: parallax
 */
 
@@ -11,6 +11,11 @@ Template: parallax
 @import url("./custom-sharing-jp.css");
 
 /* write custom css below */
+
+/* front page slider height */
+body > div.custom-slider {
+    min-height: 300px;
+}
 
 /* stop the header wrap from pages */
 
@@ -651,6 +656,16 @@ p.back-top {
 .back-top a {
     padding:0px;
 }
+
+div.footer-text.clearfix {
+    display: none;
+}
+
+div.custom-footer-text {
+    text-align: center;
+    font-size: large;
+}
+
 #footer .widget li {
     border: none;
 }

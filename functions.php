@@ -6,6 +6,11 @@ return 18;
 }
 add_filter( 'excerpt_length', 'themify_custom_excerpt_length', 999 );
 
+//custom footer content
+function theme_footer_end() {
+echo '<div class="custom-footer-text"><a href="mailto:airskullhomeschool@gmail.com">Mail us</a>&nbsp Copyright airskull 2014 &nbsp<a href="http://airskull.com/disclaimer/">Disclaimer affiliate links</a></div>';
+}
+add_action( 'themify_footer_end', 'theme_footer_end' );
 
 // Call actions and filters in after_setup_theme hook
 add_action( 'after_setup_theme', 'custom_themify_parent_theme_setup' );
@@ -58,6 +63,7 @@ function custom_homepage_slider_banner() {
 }
 
 add_action( 'themify_header_end', 'custom_homepage_slider_banner' );
+
 // handle custom subscription form
 
 add_action( 'init', 'process_air_subscription_form' );
@@ -97,6 +103,5 @@ function process_air_subscription_form() {
         wp_safe_redirect( $redirect );
             }
 }
-
 
 ?>
