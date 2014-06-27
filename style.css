@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.129
+Version: 3.8.133
 Template: parallax
 */
 
@@ -648,6 +648,7 @@ ul.xoxo.blogroll {
 }
 
 p.back-top {
+    display:none;
     margin-top: 0px;
     padding-bottom: 7px;
     border: none;
@@ -663,12 +664,33 @@ div.footer-text.clearfix {
 
 div.custom-footer-text {
     text-align: center;
-    font-size: large;
+    font-size: small;
+    color: #999;
 }
 
 #footer .widget li {
     border: none;
 }
+
+ul.footernote {
+    display: inline-flex;
+    margin: 5px 15px;
+}
+
+#footer li.first {
+    border: none;
+}
+
+.footernote li {
+    border-left: 1px solid #AAAAB0;
+    list-style: none;
+    padding: 0px 45px;
+}
+
+#footer li.first {
+border: none;
+}
+
 
 /* individul pages styling */
 .themify_builder_content-6580 .module_row_0.module_row {

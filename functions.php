@@ -8,7 +8,11 @@ add_filter( 'excerpt_length', 'themify_custom_excerpt_length', 999 );
 
 //custom footer content
 function theme_footer_end() {
-echo '<div class="custom-footer-text"><a href="mailto:airskullhomeschool@gmail.com">Mail us</a>&nbsp Copyright airskull 2014 &nbsp<a href="http://airskull.com/disclaimer/">Disclaimer affiliate links</a></div>';
+echo '<div class="custom-footer-text">';
+echo '<ul class="footernote"><li class="first"><a href="mailto:airskullhomeschool@gmail.com">Mail us</a></li>';
+echo '<li>Copyright AirSkull 2014</li>';
+echo '<li><a href="#header">Back to top </a></li>';
+echo '<li>We use affiliate links see <a href="http://airskull.com/disclaimer/">here</a> for details</li></ul></div>';
 }
 add_action( 'themify_footer_end', 'theme_footer_end' );
 
@@ -52,7 +56,7 @@ add_filter( 'the_content', 'airskull_subscribe' );
 add_filter( 'the_content', 'airskull_sharing_title', 8 );
 add_filter( 'the_content', 'sharing_display', 9 );
 
-// add the scroll down  arrow
+// add the MOTD banner on the slider
 
 function custom_homepage_slider_banner() {
 	global $themify;
