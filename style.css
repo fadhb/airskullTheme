@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 2nd June 2014
-Version: 3.8.133
+Version: 3.8.135
 Template: parallax
 */
 
@@ -484,6 +484,10 @@ i.motd.motd-b {
 	display: none;
 }
 
+/* Disclaimer page */
+.page-id-6701 div#comments {
+    	display: none;
+}
 /* Crafts Page */
 .page-id-6679 i.fa.fa-arrow-circle-down {
         display: none;
@@ -604,6 +608,7 @@ h4.widgettitle {
     text-align: center;
     font-family: alice;
     color: rgb(85, 85, 85);
+    margin-bottom: 30px;
 }
 
 div.footer-text.clearfix {
@@ -612,10 +617,6 @@ div.footer-text.clearfix {
 
 #linkcat-0 h4.widgettitle {
     display: none;
-}
-
-h4.widgettitle {
-    margin-left: 0px;
 }
 
 div#text-3 {
@@ -641,10 +642,6 @@ ul.feature-posts-list {
     -webkit-column-gap: 10px;
     column-count: 2;
     column-gap: 10px;
-}
-
-ul.xoxo.blogroll {
-    margin-top: 50px;
 }
 
 p.back-top {
