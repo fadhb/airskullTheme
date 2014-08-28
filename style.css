@@ -1,8 +1,8 @@
 /*
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
-Author: AirSkull updated 2nd June 2014
-Version: 3.8.135
+Author: AirSkull updated 28th August 2014
+Version: 3.8.137
 Template: parallax
 */
 
@@ -11,6 +11,10 @@ Template: parallax
 @import url("./custom-sharing-jp.css");
 
 /* write custom css below */
+
+a#blogbadge {
+    margin-left: 10%;
+}
 
 /* front page slider height */
 body > div.custom-slider {
@@ -604,7 +608,7 @@ ul.feature-posts-list {
 }
 
 h4.widgettitle {
-    margin-left: 1em;
+    margin-left: 0px;
     text-align: center;
     font-family: alice;
     color: rgb(85, 85, 85);
