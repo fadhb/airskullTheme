@@ -1,8 +1,8 @@
 /*
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
-Author: AirSkull updated 28th September 2014
-Version: 3.8.138
+Author: AirSkull updated 0th October 2014
+Version: 3.8.140
 Template: parallax
 */
 
@@ -74,7 +74,7 @@ p {
     width: 978px;
 }
 
-.entry-content p iframe { 
+iframe { 
     display:block; 
     margin: 0 auto; 
 }
@@ -679,7 +679,7 @@ div.custom-footer-text {
 }
 
 ul.footernote {
-    display: inline-flex;
+    display: -webkit-inline-box;
     margin: 5px 15px;
 }
 

@@ -101,7 +101,7 @@ function process_air_subscription_form() {
                     break;
             }
         } else {
-            $redirect = add_query_arg( 'subscribe', 'success', 'http://airskull.com/thanks-subscribing' );
+            $redirect =  add_query_arg( 'subscribe', 'success', 'http://airskull.com/thanks-subscribing' ) ;
         }
         
         wp_safe_redirect( $redirect );
