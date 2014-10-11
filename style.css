@@ -1,8 +1,8 @@
 /*
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
-Author: AirSkull updated 0th October 2014
-Version: 3.8.140
+Author: AirSkull updated 11th October 2014
+Version: 3.8.143
 Template: parallax
 */
 
@@ -407,6 +407,21 @@ display: none;
 }
 
 /* style for the banner over the homepage slider */
+
+.page-id-7276 i.motd {
+	position: absolute;
+	left: 78%;
+	bottom: -500px;
+	background-image:url('http://airskull.com/wp-content/uploads/2014/10/airskull-twistright.png');
+	background-size: 192px 192px;
+	opacity: 0.7;
+	height: 192px;
+	width: 192px;
+	background-repeat: no-repeat;
+	z-index: 9;
+}
+
+/*
 .page-id-7276 i.motd {
     position: absolute;
     left: 52%;
@@ -435,6 +450,7 @@ i.motd.motd-b {
     font-style: normal;
     font-size: 28px;
 }
+*/
 
 /* page 6467 was the old home page */
 /* first set the fixed nav size for all pages */
