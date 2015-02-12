@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 12th February 2014
-Version: 3.8.146
+Version: 3.8.147
 Template: parallax
 */
 
@@ -254,12 +254,13 @@ div.image-wrap {
     display: block !important;
     margin-bottom: 15px !important
 }
+
 div.image-wrap img {
     display: block;
     margin:0 auto;
 }
 
-text-7276-1-0-0.module-text {
+#text-7276-1-0-0.module-text {
     margin-bottom: 25px;
     margin-top: 75px;
 }
