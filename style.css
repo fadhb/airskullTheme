@@ -2,7 +2,7 @@
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
 Author: AirSkull updated 12th February 2014
-Version: 3.8.148
+Version: 3.8.149
 Template: parallax
 */
 
@@ -141,7 +141,7 @@ h3.sd-title {
 }
 
 h3.module-title {
-    padding 0 0 ;
+    padding: 0 0 ;
 }
 
 .sd-content {
