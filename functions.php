@@ -10,7 +10,7 @@ add_filter( 'excerpt_length', 'themify_custom_excerpt_length', 999 );
 function theme_footer_end() {
 echo '<div class="custom-footer-text">';
 echo '<ul class="footernote"><li class="first"><a href="mailto:airskullhomeschool@gmail.com">Mail us</a></li>';
-echo '<li>Copyright AirSkull 2014</li>';
+echo '<li>Copyright AirSkull 2015</li>';
 echo '<li><a href="#header">Back to top </a></li>';
 echo '<li>We use affiliate links see <a href="http://airskull.com/disclaimer/">here</a> for details</li></ul></div>';
 }
