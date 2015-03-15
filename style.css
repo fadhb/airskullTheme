@@ -1,8 +1,8 @@
 /*
 Theme Name: Parallax Child
 Description: Child theme for Parallax theme
-Author: AirSkull updated 12th February 2014
-Version: 3.8.149
+Author: AirSkull updated 15th March 2015
+Version: 3.8.150
 Template: parallax
 */
 
@@ -144,6 +144,9 @@ h3.module-title {
     padding: 0 0 ;
 }
 
+h3.image-title {
+    padding-bottom:2px;
+}
 .sd-content {
     text-align: center;
     margin-bottom: 45px;
